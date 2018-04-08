@@ -1,0 +1,55 @@
+body{
+    background-color: #3E87DA
+;
+}
+
+
+.commentaire textarea{
+	width: 500px;
+	height: 80px;
+	background-color: #E3E9FA;
+    border-color: black;
+	resize: none;
+}
+.commentaire button{
+	float: left;
+    width: 80px;
+    height: 30px;
+    margin-right: 10px;
+    border: none;
+    background-color: #E3E9FA;
+    font-family: arial;
+    font-size: 14px;
+    color: #111;
+    cursor: pointer;
+}
+
+.zone-commentaire{
+    width: 700px;
+    padding: 10px;
+    height: 70px;
+    margin-bottom: 4px;
+    background-color: #E3F4FA;
+    border-radius: 4px;
+}
+.zone-commentaire p{
+    font-family: arial;
+    font-size: 14px;
+    line-height: 16px;
+    color: #282828;
+    font-weight: 100;
+}
+
+.supprimer{
+    position: relative;
+    float: right;   
+    top: -50px;
+    right: 0px;
+}
+.supprimer button{
+    width: 90px;
+    height: 20px;
+    color: #282828;
+    background-color: #fff;
+    opacity: 0.7;
+}
